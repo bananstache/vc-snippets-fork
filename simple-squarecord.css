@@ -1,5 +1,7 @@
 /* --- Squarecord Simplified --- */
 *,
+*::before,
+*::after,
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-track {
     border-radius: 0px !important;
