@@ -315,18 +315,19 @@
 }
 .attachButton_eba568 {
   background-color: var(--channeltextarea-background);
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: -4px;
   border-radius: 100% !important;
+  width: 44px;
   height: 44px;
 }
+.icon_e5875d {
+  padding-left: 10px;
+} 
 .activityButton__14226 {
   background-color: var(--channeltextarea-background);
   margin-left: 14px;
-  padding-left: 5px;
-  padding-right: 5px;
   border-radius: 100% !important;
+  width: 44px;
   height: 44px;
 }
 
@@ -492,3 +493,4 @@ button, input {
 .modal_d2e7a7 .embedMedia_b473d2 {
   border-radius: 0px !important;
 }
+
