@@ -18,6 +18,43 @@
 .sidebar_ded4b5 {
   border-radius: 16px 0px 0px 0px;
 }
+.header__104ca {
+  padding: 12px;
+}
+.headerContent_ee8727 .guildIconV2Container__53cdb {
+  background-color: var(--background-secondary);
+  padding: 6px;
+  border-radius: 12px 0px 0px 12px;
+  margin-right: 0px;
+}
+.headerContent_ee8727 .name_c08dbc {
+  background-color: var(--background-secondary);
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 0px 12px 12px 0px;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+.headerContent_ee8727 .headerChildren__7cd0b {
+  background-color: var(--background-secondary);
+  border-radius: 12px;
+}
+.headerContent_ee8727 .button__07e07 {
+  margin: 4px;
+  margin-left: 5px;
+  margin-right: 5px;
+  top: 4px;
+}
+.header__104ca:hover .headerContent_ee8727 .guildIconV2Container__53cdb,  
+.header__104ca:hover .headerContent_ee8727 .name_c08dbc,
+.header__104ca:hover .headerContent_ee8727 .headerChildren__7cd0b
+{
+  /* background-color: transparent; */
+  transition: background-color 0.1s linear 0s
+}
+
+
 .interactive__776ee {
   border-radius: 12px;
   background-color: var(--background-modifier-hover);
