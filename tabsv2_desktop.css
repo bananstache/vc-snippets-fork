@@ -253,6 +253,16 @@
 .stickerCategory__4891e{
   border-radius: 100% !important;
 }
+.picker__6dca7 {
+  border-radius: 12px;
+}
+.container_e4c233 {
+  border-radius: 12px;
+}
+.result_e1fc74, .gif__2aa16, .categoryFadeBlurple_e73c11, .categoryFade_f9c843, .result_e1fc74::after {
+  border-radius: 12px !important;
+}
+
 /*  */
 .form__13a2c {
   border-top: 1px solid var(--background-secondary);
