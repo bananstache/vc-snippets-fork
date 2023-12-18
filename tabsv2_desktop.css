@@ -284,6 +284,7 @@
     box-shadow: var(--elevation-high);
     border-radius: 100% !important;
     font-size: 0px;
+    z-index: 999;
 }
 .chatContent__5dca8:has(.form__13a2c .base__512ed) .jumpToPresentBar__0ff7f > button:last-child {
     bottom: 42px;
