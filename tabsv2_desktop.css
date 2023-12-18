@@ -21,27 +21,39 @@
 .header__104ca {
   padding: 12px;
 }
+.headerContent_ee8727 {
+  border: 0px solid green
+}
 .headerContent_ee8727 .guildIconV2Container__53cdb {
   background-color: var(--background-secondary);
   padding: 6px;
   border-radius: 12px 0px 0px 12px;
   margin-right: 0px;
+
 }
 .headerContent_ee8727 .name_c08dbc {
   background-color: var(--background-secondary);
   display: block;
+  flex-grow: 0;
+  flex-basis: auto;
   padding-top: 4px;
   padding-bottom: 4px;
   border-radius: 0px 12px 12px 0px;
-  margin-right: 10px;
+  margin-right: px;
   padding-right: 10px;
+  width: fit-content;
+  max-width: 142px;
 }
 .headerContent_ee8727 .headerChildren__7cd0b {
   background-color: var(--background-secondary);
   border-radius: 12px;
+  position: absolute;
+  margin-left: 190px;
+  /* display: none; */
 }
 .headerContent_ee8727 .button__07e07 {
-  margin: 4px;
+  margin: 3px;
+  margin-top: 4px;
   margin-left: 5px;
   margin-right: 5px;
   top: 4px;
