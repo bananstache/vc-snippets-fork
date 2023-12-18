@@ -382,9 +382,13 @@
   border-radius: 12px;
   background-color: var(--background-modifier-hover);
 }
+.selected__9800b .layout_bb8e67 {
+  border: 1px solid #ffffff40;
+  padding-left: 7px;
+  padding-right: 7px;
+}
 .layout_bb8e67:hover {
   background-color: var(--background-modifier-selected) !important;
-  border: 1px solid #ffffff40;
 }
 /*  */
 .item__48dda, .selected__5711d {
