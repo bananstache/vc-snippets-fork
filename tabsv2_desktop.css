@@ -137,6 +137,9 @@
   margin-bottom: 10px;
 }
 /*  */
+.repliedMessage_e2bf4a::before {
+  border-top-left-radius: 12px;
+}
 .embedWrapper_c143d9, .imageWrapper_fd6587,
 .clickableWrapper__64072 img,
 .embedVideo__0c65b video,
