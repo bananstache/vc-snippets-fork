@@ -86,9 +86,11 @@
 .embedWrapper_c143d9, .imageWrapper_fd6587,
 .clickableWrapper__64072 img,
 .embedVideo__0c65b video,
-.wrapperAudio__555ce {
+.wrapperAudio__555ce,
+.attachment_f3cf2c {
   border-radius: 12px !important;
 }
+
 .audioControls__9fbe9 {
   border-radius: 8px;
 }
@@ -201,7 +203,6 @@
   background: var(--background-primary) !important;
   width: 100%;
 }
-
 .wrapper_fbbb73 {
   margin: 0px;
   border-radius: 0px;
@@ -250,7 +251,6 @@
   padding-bottom: 16px;
   padding-top: 10px;
 }
-
 .cooldownWrapper_de448f {
   padding-right: 4px;
 }
@@ -280,10 +280,6 @@
   background: var(--channeltextarea-background);
   border-radius: 20px 0px 0px 20px;
   margin-left: 7px;
-}
-.message__80c10 .inner__9fd0b .buttonContainer__8b164 {
-  border-radius: 0px 20px 20px 0px;
-  margin-right: 8px;
 }
 .textArea__74543 > div > div{
   margin-left: 12px;
@@ -369,6 +365,9 @@
 .activeButtonChild__6e162:hover {
   background-color: var(--brand-500);
 }
+.activeButtonChild__6e162:hover {
+  background-color: var(--brand-400);
+}
 .userPanelInner_eddf4c .bannerSVGWrapper__3e7b0 .banner__6d414 {
   border-radius: 0px !important;
 }
@@ -385,6 +384,7 @@
 }
 .layout_bb8e67:hover {
   background-color: var(--background-modifier-selected) !important;
+  border: 1px solid #ffffff40;
 }
 /*  */
 .item__48dda, .selected__5711d {
