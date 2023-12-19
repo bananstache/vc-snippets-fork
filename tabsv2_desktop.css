@@ -60,7 +60,7 @@
   margin-right: 5px;
   top: 4px;
 }
-/* .header__104ca:hover .headerContent_ee8727 .guildIconV2Container__53cdb,  
+/* .header__104ca:hover .headerContent_ee8727 .guildIconV2Container__53cdb,
 .header__104ca:hover .headerContent_ee8727 .name_c08dbc,
 .header__104ca:hover .headerContent_ee8727 .headerChildren__7cd0b
 {
@@ -139,6 +139,13 @@
 /*  */
 .repliedMessage_e2bf4a::before {
   border-top-left-radius: 12px;
+}
+.container_dbadf5 {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.container_dbadf5 .embedFull__8dc21 {
+  border-radius: 0px 12px 12px 0px!important;
 }
 .embedWrapper_c143d9, .imageWrapper_fd6587,
 .clickableWrapper__64072 img,
@@ -396,7 +403,7 @@
 }
 .separator__8424b {
   margin-left: 0px;
-} 
+}
 .separator__8424b::before {
   display: none;
 }
@@ -409,7 +416,7 @@
 }
 .icon_e5875d {
   padding-left: 10px;
-} 
+}
 .activityButton__14226 {
   background-color: var(--channeltextarea-background);
   margin-left: 14px;
