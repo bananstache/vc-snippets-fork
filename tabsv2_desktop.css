@@ -687,7 +687,7 @@ button, input {
   border-radius: 12px;
 }
 .reactionTooltip__9384a {
-  border-radius: 12px;
+  border-radius: 12px !important;
 }
 /*  */
 .activityButton__14226 {
