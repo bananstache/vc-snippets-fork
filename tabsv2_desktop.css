@@ -152,7 +152,7 @@
   border-top-left-radius: 12px;
 }
 .embedFull__8dc21 {
-  border: 4px solid;
+  border: 4px solid currentColor;
   border-radius: 12px;
   border-top-color: transparent !important;
   border-bottom-color: transparent !important;
