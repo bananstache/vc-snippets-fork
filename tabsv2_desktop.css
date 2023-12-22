@@ -380,12 +380,12 @@
   background: var(--channeltextarea-background);
   border-radius: 20px 0px 0px 20px;
   margin-left: 7px;
+  padding-right: 40;
 }
 .textArea__74543 > div > div{
   margin-left: 12px;
 }
 .editor__66464 > div {
-  border: 0px solid green;
   margin-right: 10px;
 }
 .expression-picker-chat-input-button.buttonContainer__8b164{
@@ -398,13 +398,6 @@
   position: sticky !important;
   top: 0px !important;
   height: 44px;
-}
-.container__5eb17, .buttons_ce5b56 > div:not(.separator__8424b) {
-  background: var(--channeltextarea-background);
-}
-.buttons_ce5b56 div:nth-child(6) {
-  border-radius: 0px 20px 20px 0px;
-  margin-right: 8px;
 }
 .buttons_ce5b56 div:nth-child(4), .buttons_ce5b56 div:nth-child(5) {
   display: none;
@@ -421,16 +414,28 @@
 .message__80c10 .inner__9fd0b .buttonContainer__8b164{
   border-radius: 0px 20px 20px 0px;
   margin-right: 8px;
+  /* border: 1px solid green; */
+  background-color: var(--channeltextarea-background);
 }
 .floating_f021e2 .buttonContainer__8b164, .container_def45c .buttonContainer__8b164 {
   border-radius: 0px 20px 20px 0px;
-  margin-right: 8px;
 }
 .separator__8424b {
-  margin-left: 0px;
+  margin-left: 8px;
 }
 .separator__8424b::before {
-  display: none;
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0px solid;
+  background-color: var(--channeltextarea-background);
+  right: 56px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .attachButton_eba568 {
   background-color: var(--channeltextarea-background);
