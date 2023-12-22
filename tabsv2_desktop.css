@@ -356,6 +356,8 @@
 }
 .channelTextArea__2e60f {
   margin-bottom: 8px;
+} 
+.channelTextArea__2e60f > div{
   margin-top: 8px;
 }
 .form__13a2c:has(.channelAttachmentArea__740bf) .channelTextArea__2e60f {
@@ -439,8 +441,7 @@
   border: 0px solid;
   background-color: var(--channeltextarea-background);
   right: 56px;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
 }
 .attachButton_eba568 {
   background-color: var(--channeltextarea-background);
