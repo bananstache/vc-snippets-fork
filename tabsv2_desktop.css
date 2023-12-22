@@ -382,6 +382,11 @@
   margin-left: 7px;
   padding-right: 40;
 }
+.textAreaDisabled__60cc6 {
+  border-radius: 20px;
+  margin-left: 7px;
+  padding-right: 40;
+}
 .textArea__74543 > div > div{
   margin-left: 12px;
 }
@@ -469,16 +474,14 @@
   margin-right: 6px;
 }
 .buttonContainer__9b459:has(.activeButtonChild__6e162) .button__8d734 {
-  background-color: var(--brand-400);
+  background-color: var(--brand-500);
+  transition: background-color 0.25s ease-in-out 0s;
 }
 .activeButtonChild__6e162 .sendIcon__461ff {
   color: var(--white-500);
 }
 .activeButtonChild__6e162:hover {
   background-color: var(--brand-500);
-}
-.activeButtonChild__6e162:hover {
-  background-color: var(--brand-400);
 }
 .userPanelInner_eddf4c .bannerSVGWrapper__3e7b0 .banner__6d414 {
   border-radius: 0px !important;
