@@ -117,6 +117,21 @@
 .link__95dc0, .containerDefault__3187b:hover .link__95dc0, .emojiColorFill__3e432 {
     border-radius:12px;
 }
+.container_f87d43 .spineBorder_bdec8b {
+  top: 4px;
+}
+.container_f87d43 .containerDefault__3187b .spine__88e6d > path {
+  fill: transparent;
+  display: none;
+}
+.container_f87d43 .containerDefault__3187b .spine__88e6d {
+  border-left: 2px solid;
+  border-bottom: 2px solid;
+  border-bottom-left-radius: 12px;
+}
+.container_f87d43 .containerDefault__3187b .spine__88e6d:nth-child(2) {
+  display: none;
+}
 .voiceChannelsButton__46c37 {
   border-radius: 16px;
 }
