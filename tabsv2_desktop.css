@@ -419,7 +419,7 @@
   border-radius: 0px 20px 20px 0px;
 }
 .buttonContainer__8b164:has(.emojiButton__8ff6a) {
-  visibility: visible !important;
+  display: block !important;
   /* this is forced on so that it doesnt break the bordering */
 }
 .buttonContainer__8b164:has(.button_f0455c) {
@@ -445,7 +445,7 @@
   border-radius: 0px 20px 20px 0px;
 }
 .separator__8424b {
-  visibility: visible !important;
+  display: block !important;
   /* also forced on so it doesnt break. */
   margin-left: 8px;
   background-color: none !important;
