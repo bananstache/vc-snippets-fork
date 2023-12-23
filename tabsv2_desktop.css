@@ -415,15 +415,13 @@
 .buttons_ce5b56 > div:not(.separator__8424b) {
   background-color: var(--channeltextarea-background);
 }
-.buttons_ce5b56 > div:nth-child(6) {
+.buttons_ce5b56 .buttonContainer__8b164:has(.emojiButton__8ff6a) {
   border-radius: 0px 20px 20px 0px;
-}
-.buttonContainer__8b164:has(.emojiButton__8ff6a) {
   display: block !important;
   /* this is forced on so that it doesnt break the bordering */
 }
 .buttonContainer__8b164:has(.button_f0455c) {
-  display: none;
+  display: none !important;
   /* to match mobile message bar. */
 }
 .sansAttachButtonCreateThread_cb0040 .buttonContainer__8b164 {
