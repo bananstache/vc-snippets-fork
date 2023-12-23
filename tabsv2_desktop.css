@@ -25,40 +25,48 @@
   padding: 12px;
 }
 .headerContent_ee8727 {
-  border: 0px solid green
+  border: 0px solid green;
+  filter: none !important;
 }
+.headerContent_ee8727 .guildIconContainer_a995c7,
 .headerContent_ee8727 .guildIconV2Container__53cdb {
   background-color: var(--background-secondary);
   padding: 6px;
-  border-radius: 12px 0px 0px 12px;
+  border-radius: 20px 0px 0px 20px;
   margin-right: 0px;
-
 }
 .headerContent_ee8727 .name_c08dbc {
   background-color: var(--background-secondary);
+  border-radius: 20px;
   display: block;
   flex-grow: 0;
   flex-basis: auto;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-radius: 0px 12px 12px 0px;
-  padding-right: 10px;
+  padding: 4px 10px;
   width: fit-content;
   max-width: 142px;
 }
+.headerContent_ee8727:has(.guildIconContainer_a995c7) .name_c08dbc,
+.headerContent_ee8727:has(.guildIconV2Container__53cdb) .name_c08dbc {
+  padding-left: 0px;
+  border-radius: 0px 20px 20px 0px;
+}
 .headerContent_ee8727 .headerChildren__7cd0b {
   background-color: var(--background-secondary);
-  border-radius: 12px;
+  border-radius: 20px;
   position: relative;
   margin-left: auto;
   /* display: none; */
 }
 .headerContent_ee8727 .button__07e07 {
-  margin: 3px;
+  margin: 4px;
   margin-top: 4px;
   margin-left: 5px;
   margin-right: 5px;
   top: 4px;
+}
+.header__104ca:hover {
+  background-color: transparent !important;
+  transition: none;
 }
 /* .header__104ca:hover .headerContent_ee8727 .guildIconV2Container__53cdb,
 .header__104ca:hover .headerContent_ee8727 .name_c08dbc,
@@ -356,7 +364,7 @@
 }
 .channelTextArea__2e60f {
   margin-bottom: 8px;
-} 
+}
 .channelTextArea__2e60f > div{
   margin-top: 8px;
 }
@@ -382,18 +390,16 @@
   background: var(--channeltextarea-background);
   border-radius: 20px 0px 0px 20px;
   margin-left: 7px;
-  padding-right: 40;
 }
 .textAreaDisabled__60cc6 {
   border-radius: 20px;
-  margin-left: 7px;
-  padding-right: 40;
+}
+.inner__9fd0b:not(.separator__8424b) {
+  border: 0px solid green;
+  margin-right: 8px;
 }
 .textArea__74543 > div > div{
   margin-left: 12px;
-}
-.editor__66464 > div {
-  margin-right: 10px;
 }
 .expression-picker-chat-input-button.buttonContainer__8b164{
   align-items: baseline;
@@ -406,8 +412,19 @@
   top: 0px !important;
   height: 44px;
 }
-.buttons_ce5b56 div:nth-child(4), .buttons_ce5b56 div:nth-child(5) {
+.buttons_ce5b56 > div:not(.separator__8424b) {
+  background-color: var(--channeltextarea-background);
+}
+.buttons_ce5b56 > div:nth-child(6) {
+  border-radius: 0px 20px 20px 0px;
+}
+.buttonContainer__8b164:has(.emojiButton__8ff6a) {
+  visibility: visible !important;
+  /* this is forced on so that it doesnt break the bordering */
+}
+.buttonContainer__8b164:has(.button_f0455c) {
   display: none;
+  /* to match mobile message bar. */
 }
 .sansAttachButtonCreateThread_cb0040 .buttonContainer__8b164 {
   border-radius: 0px 20px 20px 0px;
@@ -417,7 +434,7 @@
 }
 .message__80c10 .editor__66464 {
   padding-left: 0px;
-}  
+}
 .message__80c10 .inner__9fd0b .buttonContainer__8b164{
   border-radius: 0px 20px 20px 0px;
   margin-right: 8px;
@@ -428,20 +445,13 @@
   border-radius: 0px 20px 20px 0px;
 }
 .separator__8424b {
+  visibility: visible !important;
+  /* also forced on so it doesnt break. */
   margin-left: 8px;
+  background-color: none !important;
 }
 .separator__8424b::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border: 0px solid;
-  background-color: var(--channeltextarea-background);
-  right: 56px;
-  border-radius: 20px;
+  display: none;
 }
 .attachButton_eba568 {
   background-color: var(--channeltextarea-background);
