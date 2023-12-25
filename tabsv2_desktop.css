@@ -151,17 +151,40 @@
   border-radius: 16px 0px 0px 16px !important;
   background-color: var(--background-tertiary);
 }
-.chat__52833 .scroller__1f96e::-webkit-scrollbar-track {
-  margin-top: 6px;
-}
 .chat__52833:has(.members__9f47b) .container__93316,
 .chat__52833:has(.profilePanel__12596) .container__93316 {
   margin-right: 8px;
 }
 .chat__52833:has(.members__9f47b) .chatContent__5dca8,
+.chat__52833:has(.members__9f47b) .container_b181b6,
 .chat__52833:has(.profilePanel__12596) .chatContent__5dca8 {
   border-radius: 0px 16px 16px 0px;
 }
+.chat__52833:has(.members__9f47b) .chatContent__5dca8 .scroller__1f96e::-webkit-scrollbar-track {
+  margin-top: 6px;
+}
+.chat__52833:has(.members__9f47b) .container_b181b6 .scrollerBase_dc3aa9::-webkit-scrollbar-track {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.chat__52833:has(.members__9f47b) .container_b181b6 .thin_b1c063::-webkit-scrollbar {
+  width: 16px;
+  height: 16px; 
+}
+.chat__52833:has(.members__9f47b) .container_b181b6 .thin_b1c063::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  border: 4px solid transparent;
+  border-radius: 8px;
+  background-color: var(--scrollbar-auto-thumb);
+  min-height: 40px;
+}
+.chat__52833:has(.members__9f47b) .container_b181b6 .thin_b1c063::-webkit-scrollbar-track {
+  border: 4px solid transparent;
+  background-clip: padding-box;
+  border-radius: 8px;
+  background-color: var(--scrollbar-auto-track);
+}
+
 .container_b2ce9c, .members__9f47b {
   border-radius: 16px 0px 0px 16px !important;
 }
@@ -169,14 +192,14 @@
   background-color: var(--background-secondary);
 }
 .threadSidebarOpen_fa231d {
-    border-radius: 16px !important;
+  border-radius: 16px !important;
 }
 .profilePanel__12596 .bannerSVGWrapper__3e7b0 {
   border-radius: 16px 0px 0px 0px;
 }
 .profilePanel__12596 .userPanelOuter__880e5,
 .profilePanel__12596 .userPanelInner_eddf4c {
-    border-radius: 0px 0px 0px 16px !important;
+  border-radius: 0px 0px 0px 16px !important;
 }
 /*  */
 .toolbar__88c63 {
@@ -871,4 +894,3 @@ button, input {
 .vc-permviewer-perms-perms-item-icon {
   border-radius: 8px;
 }
-
