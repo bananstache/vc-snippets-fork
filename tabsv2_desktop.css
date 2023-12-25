@@ -160,8 +160,7 @@
 .chat__52833:has(.profilePanel__12596) .chatContent__5dca8 {
   border-radius: 0px 16px 16px 0px;
 }
-.chat__52833:has(.members__9f47b) .chatContent__5dca8 .scroller__1f96e::-webkit-scrollbar-track,
-.chat__52833:has(.profilePanel__12596) .chatContent__5dca8 .scroller__1f96e::-webkit-scrollbar-track  {
+.chat__52833:has(.members__9f47b) .chatContent__5dca8 .scroller__1f96e::-webkit-scrollbar-track {
   margin-top: 6px;
 }
 .chat__52833:has(.members__9f47b) .container_b181b6 .scrollerBase_dc3aa9::-webkit-scrollbar-track {
@@ -200,7 +199,7 @@
 }
 .profilePanel__12596 .userPanelOuter__880e5,
 .profilePanel__12596 .userPanelInner_eddf4c {
-  border-radius: 0px 0px 0px 16px !important;
+  border-radius: 16px 0px 0px 16px !important;
 }
 /*  */
 .toolbar__88c63 {
