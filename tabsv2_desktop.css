@@ -257,12 +257,13 @@
   border: 0px solid green;
   display: flex;
   overflow: hidden !important;
-  margin-top: 0px;
+  padding-top: 4px;
   padding-left: 6px;
+  /* background-color: red; */
 }
 .public-DraftStyleDefault-block:has(.searchFilter__118cb) {
   display: block;
-  margin-top: 0px;
+  padding-top: 0px;
   padding-left: 2px;
 }
 .searchFilter__118cb {
@@ -295,6 +296,9 @@
 .repliedMessage_e2bf4a::before {
   border-top-left-radius: 12px;
 }
+.cozy_f5c119.hasThread__58ee2:after {
+  border-bottom-left-radius: 12px;
+}
 .embedFull__8dc21 {
   border: 4px solid currentColor;
   border-radius: 12px;
@@ -315,7 +319,8 @@
 .embedVideo__0c65b video,
 .wrapperAudio__555ce,
 .attachment_f3cf2c,
-.wrapper_efe67f {
+.wrapper_efe67f,
+.container__767d1 {
   border-radius: 12px !important;
 }
 .hoverButton__13836 {
