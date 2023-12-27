@@ -870,8 +870,8 @@
 .cardPrimary_cb7a0e  {
   border-radius: 16px;
 }
-.connectContainer__8050b {
-  border-radius: 16px;
+.connectContainer__8050b, .connection_fff5f6 {
+  border-radius: 16px !important;
 }
 .connection_fff5f6, .connectionHeader__3c82d {
   border-radius: 16px 16px 0px 0px;
@@ -978,6 +978,23 @@ button, input {
 .item__183e8 {
   border-radius: 8px;
 }
+.track_a48141 .markDash_dc3ae9 {
+  height: 20px !important;
+  /* border: 1px solid red; */
+}
+.bar_e58961 {
+  height: 2px;
+}
+.grabber_d2868c {
+  height: 16px;
+  width: 16px;
+  top: 56% !important;
+  margin-left: -8px;
+  border-radius: 100%;
+  background-color: var(--brand-500);
+  border: none;
+}
+/*  */
 .popout_a6e77f {
   border-radius: 12px;
 }
@@ -1019,4 +1036,7 @@ button, input {
 }
 .vc-permviewer-perms-perms-item-icon {
   border-radius: 8px;
+}
+#vc-experiments-warning-card {
+  border-radius: 12px;
 }
