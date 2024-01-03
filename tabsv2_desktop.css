@@ -242,7 +242,7 @@
   margin-left: 8px;
   border-radius: 16px 0px 0px 16px !important;
 }
-.applicationStore_fc7d76 .innerWrapper_c80bad {
+.innerWrapper_c80bad {
   border-radius: 20px;
 }
 .shop_b31ed2 .container__11d72 {
@@ -806,9 +806,8 @@
 .bannerSVGWrapper__3e7b0 .banner__6d414 {
   border-radius: 16px 16px 0px 0px;
 }
-.profileBadges__7a7cb, .badgeList_c193e3 {
-  border-radius: 16px;
-  padding-left: 6px;
+.profileBadges__7a7cb, .badgeList_c193e3, .badgeList_ef4131 {
+  border-radius: 12px;
 }
 .role__631a3 {
   border-radius: 12px;
@@ -864,6 +863,10 @@
 .sidebar__9e3e2 .side_b4b3f6 > .separator_fdbcfd + .item__48dda:has(+ .separator_fdbcfd) {
   border-radius: 12px !important;
   border-bottom: none;
+}
+/* nitro tab */
+.sidebar__9e3e2 .side_b4b3f6 > .header_f72511 + .premiumTab__57bdc.item__48dda .selectedBackground_d847da{
+  border-radius: 12px 12px 0 0;
 }
 /*  */
 .tabBarItem_ad34cc, .brand_ce3ecf  {
@@ -962,7 +965,7 @@
 }
 /*  */
 .tooltip__01384 {
-  border-radius: 16px;
+  border-radius: 12px;
 }
 .popout__24e32 {
   border-radius: 16px;
