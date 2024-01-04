@@ -531,6 +531,14 @@
   width: 100%;
   height: 1px;
 }
+.form__13a2c .scrollableContainer__33e06::-webkit-scrollbar {
+  width: 8px;
+}
+.form__13a2c .scrollableContainer__33e06::-webkit-scrollbar-thumb {
+  border-right: 2px solid transparent !important;
+  border-left: 2px solid transparent;
+  background-clip: padding-box;
+}
 .wrapper_fbbb73 {
   margin: 0px;
   border-radius: 0px;
@@ -683,7 +691,6 @@
 .button__8d734 {
   background-color: var(--channeltextarea-background);
   border-radius: 100% !important;
-  margin-right: 6px;
 }
 .buttonContainer__9b459:has(.activeButtonChild__6e162) .button__8d734 {
   background-color: var(--brand-500);
