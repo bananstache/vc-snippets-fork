@@ -670,7 +670,8 @@
   align-items: baseline;
 }
 .buttons_ce5b56 > button:not(.separator__8424b) .button_f0455c {
-  margin-top: 5.5px;
+  position: sticky !important;
+  top: 5.5px !important;
 }
 /* best fix of all time */
 .buttons_ce5b56 > div:has(+ .separator__8424b){
