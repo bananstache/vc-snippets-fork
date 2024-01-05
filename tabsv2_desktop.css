@@ -390,14 +390,26 @@
 }
 .embedWrapper_c143d9, .imageWrapper_fd6587,
 .clickableWrapper__64072 img,
+.messageAttachment_b97504, .imageContainer__04362,
+.attachment__7a2d0,
 .embedVideo__0c65b,
 .embedVideo__0c65b video,
+.video__4c052 + .cover__0b3cf, .wrapper__3a7a0,
 .wrapperAudio__555ce,
 .attachment_f3cf2c,
 .wrapper_efe67f,
 .container__767d1 {
   border-radius: 12px !important;
 }
+
+ /* {
+  border-radius: 12px !important;
+  /* border: 1px solid red;
+} */
+
+
+
+
 .hoverButtonGroup__5b423, .hoverButton__13836 {
   border-radius: 8px;
 }
@@ -647,6 +659,10 @@
 }
 .buttons_ce5b56 > div:not(.separator__8424b) {
   background-color: var(--channeltextarea-background);
+}
+.buttons_ce5b56 > button:not(.separator__8424b) {
+  background-color: var(--channeltextarea-background);
+  border-radius: 0px !important;
 }
 /* best fix of all time */
 .buttons_ce5b56 > div:has(+ .separator__8424b){
