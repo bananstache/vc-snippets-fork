@@ -167,6 +167,9 @@
 .link__95dc0, .containerDefault__3187b:hover .link__95dc0, .emojiColorFill__3e432 {
     border-radius:12px;
 }
+.bar__004d9 .unreadIcon_efbd40, .bar__004d9 .barText__1a44f {
+  color: var(--brand-400) !important;
+}
 .container_f87d43 .spineBorder_bdec8b {
   top: 4px;
 }
