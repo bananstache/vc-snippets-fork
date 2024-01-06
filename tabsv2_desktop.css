@@ -533,6 +533,9 @@
 .newlyAddedBadge__97630 {
   border-radius: 0 0 8px 8px;
 }
+.newlyAddedHighlightContainer__974c5:has(li:only-child) .newlyAddedHighlight_b1b06a {
+  border-radius: 8px 8px 0 0 !important;
+}
 .container_e4c233 {
   border-radius: 12px;
 }
