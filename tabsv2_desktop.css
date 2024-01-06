@@ -167,7 +167,7 @@
 .link__95dc0, .containerDefault__3187b:hover .link__95dc0, .emojiColorFill__3e432 {
     border-radius:12px;
 }
-.bar__004d9 .unreadIcon_efbd40, .bar__004d9 .barText__1a44f {
+.bar__004d9:not(.mentionsBar__4b47a) .unreadIcon_efbd40, .bar__004d9:not(.mentionsBar__4b47a) .barText__1a44f {
   color: var(--brand-400) !important;
 }
 .container_f87d43 .spineBorder_bdec8b {
@@ -569,30 +569,33 @@
   height: 27.6px;
 }
 .jumpToPresentBar__0ff7f {
-    display: contents;
+  display: contents;
 }
 .jumpToPresentBar__0ff7f > button:first-child {
-    display: none;
+  display: none;
 }
 .jumpToPresentBar__0ff7f > button:last-child {
-    position: absolute;
-    bottom: 22px;
-    right: 22px;
-    padding: 8px !important;
-    height: auto;
-    background-color: var(--background-accent);
-    box-shadow: var(--elevation-high);
-    border-radius: 100% !important;
-    font-size: 0px;
-    z-index: 999;
+  position: absolute;
+  bottom: 22px;
+  right: 22px;
+  padding: 8px !important;
+  height: auto;
+  background-color: var(--background-accent);
+  box-shadow: var(--elevation-high);
+  border-radius: 100% !important;
+  font-size: 0px;
+  z-index: 999;
 }
 .chatContent__5dca8:has(.form__13a2c .base__512ed) .jumpToPresentBar__0ff7f > button:last-child {
-    bottom: 42px;
+  bottom: 42px;
+}
+.jumpToPresentBar__0ff7f > button:last-child:active {
+  bottom: 20px;
 }
 .jumpToPresentBar__0ff7f > button svg {
-    margin: 0px;
-    height: 24px;
-    width: 24px;
+  margin: 0px;
+  height: 24px;
+  width: 24px;
 }
 .base__512ed {
   /* border: 0px solid blue; */
@@ -609,9 +612,79 @@
   margin-top: -8px;
 }
 .channelAttachmentArea__740bf {
-  padding-bottom: 16px;
   padding-top: 10px;
+  overflow-x: scroll !important;
 }
+.channelAttachmentArea__740bf .upload_c98ecb {
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  border-radius: 8px;
+}
+.upload_c98ecb .actionBar__3cdab {
+  visibility: hidden;
+}
+.upload_c98ecb .actionBar__3cdab .wrapper_c727b6 {
+  border-radius: 8px;
+}
+.upload_c98ecb:hover .actionBar__3cdab {
+  visibility: visible;
+}
+.upload_c98ecb .icon_c2f643 {
+  width: 100%;
+  height: 100%;
+  /* zoom: 0.5; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cooldownWrapper_de448f {
   padding-right: 4px;
 }
