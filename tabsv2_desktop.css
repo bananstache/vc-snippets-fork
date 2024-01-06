@@ -527,6 +527,12 @@
 .picker__6dca7 {
   border-radius: 12px;
 }
+.newlyAddedHighlight_b1b06a {
+  border-radius: 8px 8px 0 8px!important;
+}
+.newlyAddedBadge__97630 {
+  border-radius: 0 0 8px 8px;
+}
 .container_e4c233 {
   border-radius: 12px;
 }
