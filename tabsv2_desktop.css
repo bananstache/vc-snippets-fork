@@ -34,7 +34,7 @@
   border-bottom: none;
 }
 .item_e4ca95 {
-  border-radius: 16px !important;
+  border-radius: 8px !important;
 }
 .itemCard__1f162, .section_efc22d, .body__83069 {
   border-radius: 16px !important;
@@ -392,6 +392,7 @@
   height: 100%;
 }
 .embedWrapper_c143d9, .imageWrapper_fd6587,
+.spoilerContent__37bfa:has(.spoilerEmbed__9a546),
 .clickableWrapper__64072 img,
 .messageAttachment_b97504, .imageContainer__04362,
 .attachment__7a2d0,
@@ -513,6 +514,9 @@
 /*  */
 .contentWrapper__321ed {
   border-radius: 16px;
+}
+.navItem_df0bc1  {
+  border-radius: 8px !important;
 }
 .searchBar__8f956 {
   border-radius: 12px;
@@ -638,55 +642,12 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*  */
 .cooldownWrapper_de448f {
   padding-right: 4px;
+}
+.container__48210 {
+  margin-right: 4px;
 }
 .channelTextArea__2e60f {
   margin-bottom: 8px;
@@ -892,6 +853,10 @@
 .item__48dda, .selected__5711d {
   border-radius: 12px !important;
 }
+/* duped override for the above */
+.item_e4ca95 {
+  border-radius: 8px !important;
+}
 .searchResult_dcd237 {
   border-radius: 12px;
 }
@@ -916,6 +881,10 @@
 }
 .userProfileModalOverlayBackground__52d65, .userPopoutOverlayBackground_d8afa4 {
   border-radius: 12px;
+}
+/* to fix weird pfp hover */
+.avatarHintInner__3d1c9 {
+  border-radius: 50%;
 }
 .bannerSVGWrapper__3e7b0 .banner__6d414 {
   border-radius: 16px 16px 0px 0px;
@@ -1169,4 +1138,10 @@ button, input {
 }
 #vc-experiments-warning-card {
   border-radius: 12px;
+}
+.vc-rdb-input {
+  border: none;
+}
+.vc-rdb-input .textArea__74543 {
+  margin: 0px;
 }
