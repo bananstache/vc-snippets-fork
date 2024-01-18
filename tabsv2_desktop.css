@@ -1123,7 +1123,7 @@ button, input {
 }
 /* discord please hire better css devs */
 .iconContainer__3f9b0:has(.wrapper_edb6e0) > svg{
-  display: none;
+  display: none !important;
 }
 /*  */
 /*  */
