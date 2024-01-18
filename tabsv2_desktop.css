@@ -1103,7 +1103,7 @@ button, input {
 .reactionTooltip__9384a {
   border-radius: 12px !important;
 }
-/*  */
+/* random fixes */
 .activityButton__14226 {
   position: sticky;
   top: 0px !important;
@@ -1120,6 +1120,10 @@ button, input {
 }
 .quickswitcher_a3d29a .result__25f11 {
   border-radius: 12px;
+}
+/* discord please hire better css devs */
+.iconContainer__3f9b0:has(.wrapper_edb6e0) > svg{
+  display: none;
 }
 /*  */
 /*  */
