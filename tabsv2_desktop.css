@@ -165,7 +165,7 @@
   padding: 5px 7px;
 }
 .link__95dc0, .containerDefault__3187b:hover .link__95dc0, .emojiColorFill__3e432 {
-    border-radius:12px;
+  border-radius:12px;
 }
 .bar__004d9:not(.mentionsBar__4b47a) .unreadIcon_efbd40, .bar__004d9:not(.mentionsBar__4b47a) .barText__1a44f {
   color: var(--brand-400) !important;
@@ -405,15 +405,6 @@
 .container__767d1 {
   border-radius: 12px !important;
 }
-
- /* {
-  border-radius: 12px !important;
-  /* border: 1px solid red;
-} */
-
-
-
-
 .hoverButtonGroup__5b423, .hoverButton__13836 {
   border-radius: 8px;
 }
@@ -467,7 +458,7 @@
   border-radius: 12px;
 }
 .wrapper__19c60, .selected__608f1 {
-  border-radius: 100%;
+  border-radius: 12px;
 }
 .base__76a71 {
   border-radius: 12px;
@@ -526,7 +517,7 @@
 }
 .categoryItemDefaultCategorySelected__8245a, .categoryItemDefaultCategory__67fe7,
 .stickerCategory__4891e{
-  border-radius: 100% !important;
+  border-radius: 12px !important;
 }
 .picker__6dca7 {
   border-radius: 12px;
@@ -715,6 +706,10 @@
 .buttons_ce5b56 > button:not(.separator__8424b) .button_f0455c {
   position: sticky !important;
   top: 5.5px !important;
+}
+/* ^ fix for gift button not aligning when attachment exists */
+.form__13a2c:has(.channelAttachmentArea__740bf) .buttons_ce5b56 > button:not(.separator__8424b) .button_f0455c {
+  margin-top: 5.5px !important;
 }
 /* best fix of all time */
 .buttons_ce5b56 > div:has(+ .separator__8424b){
@@ -1143,9 +1138,57 @@ button, input {
 #vc-experiments-warning-card {
   border-radius: 12px;
 }
-.vc-rdb-input {
-  border: none;
+.vc-rdb-view .vc-rdb-review {
+  /* background-color: red; */
+  border-radius: 8px;
 }
-.vc-rdb-input .textArea__74543 {
+.vc-rdb-view .vc-rdb-review .avatar__08316 {
+  margin-left:5px;
+}
+
+.userPopoutInner_f545a3 .vc-rdb-input {
+  border: none;
+
+}
+.userPopoutInner_f545a3 .vc-rdb-input .textArea__74543 {
   margin: 0px;
+  /* height: 0px !important; */
+  margin-top: 1px !important;
+}
+.userPopoutInner_f545a3 .vc-rdb-input .textArea__74543, 
+.userPopoutInner_f545a3 .vc-rdb-input .buttons_ce5b56 > div {
+  background-color: transparent;
+}
+.userPopoutInner_f545a3 .vc-rdb-input .textArea__74543 {
+  border: 1px solid #ffffff40;
+  border-radius: 12px 0px 0px 12px;
+  border-right: none;
+}
+.userPopoutInner_f545a3 .vc-rdb-input .scrollableContainer__33e06 {
+  padding-top: 2px;
+}
+.userPopoutInner_f545a3 .vc-rdb-input .buttons_ce5b56 {
+  border: 1px solid #ffffff40;
+  margin-top: -px;
+  border-radius: 0px 12px 12px 0px !important;
+  border-left: none;
+  margin-top: 1px !important;
+}
+.userPopoutInner_f545a3 .vc-rdb-input .buttons_ce5b56 .button_afdfd9 {
+  height: 42px;
+}
+.layer_ad604d .vc-rdb-modal-footer > div {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.layer_ad604d .vc-rdb-modal-footer > div .vc-rdb-review {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+.layer_ad604d .vc-rdb-input {
+  background-color: transparent;
+  margin-left: 3px;
+}
+.vc-rdb-input .textArea__74543 > div > div{
+  padding-left: 0px;
 }
