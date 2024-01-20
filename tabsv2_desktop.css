@@ -66,7 +66,7 @@
 .headerContent_ee8727 .name_c08dbc {
   background-color: var(--background-secondary);
   border-radius: 20px;
-  display: block;
+  display: unset;
   flex-grow: 0;
   flex-basis: auto;
   padding: 4px 10px;
@@ -95,6 +95,9 @@
 .header__104ca:hover {
   background-color: transparent !important;
   transition: none;
+}
+.headerContent_ee8727:has(.favoritesIcon__95de7) .name_c08dbc {
+  display: flex;
 }
 /* .header__104ca:hover .headerContent_ee8727 .guildIconV2Container__53cdb,
 .header__104ca:hover .headerContent_ee8727 .name_c08dbc,
