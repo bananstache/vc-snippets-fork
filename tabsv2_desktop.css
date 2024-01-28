@@ -807,6 +807,9 @@
 .buttons_ce5b56 > div:not(:has(.separator__8424b)):last-child {
   border-radius: 0px 20px 20px 0px;
 }
+.form__13a2c:has(div:only-child:is(.separator__8424b)) .textArea__74543 {
+  border-radius: 20px;
+}
 /*  */
 .message__80c10 .editor__66464 {
   padding-left: 0px;
@@ -821,6 +824,12 @@
   width: 44px;
   height: 44px;
   margin-right: 8px;
+}
+.form__13a2c:has(.attachedBars_da3c74) .attachButton_eba568 {
+  margin-right: 1px;
+}
+.form__13a2c:has(.attachedBars_da3c74) .buttons_ce5b56 > div:nth-last-child(2) {
+  padding-right: 2px;
 }
 .icon_e5875d {
   padding-left: 10px;
