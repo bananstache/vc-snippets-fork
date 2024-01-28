@@ -184,6 +184,27 @@
 .emojiColorFill__3e432 {
   border-radius:12px;
 }
+
+
+.link__95dc0:has(.dots_a97068) .linkTop_eaa673 > div:last-child:has(.dots_a97068) {
+  /* border: 1px solid red; */
+  background-color: var(--brand-500);
+  border: 4px solid var(--background-secondary);
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 8px !important;
+  border-radius: 12px;
+  position: absolute;
+  margin-left: 0px !important;
+  left: -5px !important;
+  top: 12px;
+}
+.link__95dc0:has(.dots_a97068) .linkTop_eaa673 > div:last-child:has(.dots_a97068) > svg {
+  transform: scale(0.6, 0.6);
+}
+
+
+
 .bar__004d9:not(.mentionsBar__4b47a) .unreadIcon_efbd40, .bar__004d9:not(.mentionsBar__4b47a) .barText__1a44f {
   color: var(--brand-400) !important;
 }
@@ -319,13 +340,53 @@
 .searchBar_e0c60b {
   /* display: flex; */
   /* align-items: baseline; */
-  border-radius: 12px;
+  border-radius: 16px;
   height: 100% !important;
-  width: 84px;
+  width: 100px;
   align-items: center !important;
   /* border: 1px solid red !important; */
   box-sizing: unset;
+  flex-direction: row-reverse;
 }
+.searchBar_e0c60b .DraftEditor-root {
+  margin-left: 24px;
+  margin-right: 26px;
+}
+.searchBar_e0c60b .icon__46425 {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  justify-content: center !important;
+  /* border: 1px solid red; */
+}
+.searchBar_e0c60b .iconContainer__8fa9c {
+  /* display: flex;
+  flex-grow: 1; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  /* border: 1px solid green; */
+}
+.searchBar_e0c60b .iconContainer__8fa9c svg:first-child {
+  opacity: 1;
+  transform: none !important;
+  width: 13px !important;
+  left: 2px;
+  /* background-color: aqua; */
+}
+.searchBar_e0c60b .iconContainer__8fa9c svg:last-child {
+  transform: none !important;
+  width: 13px !important;
+  position: absolute;
+  margin-left: 100% !important;
+  left: -20px;
+  /* opacity: 1; */
+  /* background-color: tomato; */
+} 
+/* help me */
 .public-DraftEditorPlaceholder-root{
   top: 6px;
 }
@@ -360,20 +421,31 @@
   display: block;
   padding-top: 0px;
   padding-left: 2px;
+  margin-top: 2px;
 }
 .searchFilter__118cb {
-  border-radius: 12px 0px 0px 12px;
+  border-radius: 12px;
+  height: 24px !important;
+  background-color: var(--background-primary) !important;
   padding-left: 6px;
+  padding-right: 6px;
   padding-top: 3px;
-  height: 28px;
+  padding-bottom: 2px;
 }
 .searchAnswer_b452e7 {
   border-radius: 0px 12px 12px 0px;
+  height: 24px !important;
+  background-color: var(--background-primary) !important;
   padding-right: 6px;
   padding-top: 3px;
-  height: 28px;
+  padding-bottom: 2px;
 }
-
+.public-DraftStyleDefault-block .searchFilter__118cb + .searchAnswer_b452e7 {
+  border-radius: 0px 12px 12px 0px;
+}
+.public-DraftStyleDefault-block .searchFilter__118cb:has(+ .searchAnswer_b452e7) {
+  border-radius: 12px 0px 0px 12px
+}
 .public-DraftStyleDefault-block > span {
   padding-top: 3px !important;
 }
@@ -489,7 +561,7 @@
 .option_aec314 {
   border-radius: 12px;
 }
-.formInput_c28524 {
+.formInput_c28524, .addAnswerButton__0db97 {
   border-radius: 12px;
 }
 /*  */
@@ -748,16 +820,19 @@
   border-radius: 100% !important;
   width: 44px;
   height: 44px;
+  margin-right: 8px;
 }
 .icon_e5875d {
   padding-left: 10px;
 }
 .activityButton__14226 {
   background-color: var(--channeltextarea-background);
-  margin-left: 14px;
+  /* margin-left: 14px; */
   border-radius: 100% !important;
   width: 44px;
   height: 44px;
+  /* !! removed the button because its now in the context menu for attachment button !! */
+  display: none;
 }
 .buttonChild__7b90d {
   padding: 0px;
@@ -1153,6 +1228,18 @@
 .popout__24e32 {
   border-radius: 16px;
 }
+.popout_a6e77f {
+  border-radius: 12px !important;
+}
+.select__0eb48 {
+  border-radius: 12px !important;
+}
+.container__03857 {
+  border-radius: 12px;
+}
+.container_d27846 {
+  border-radius: 12px;
+}
 .noiseCancellationPopout__06ec4{
   border-radius: 16px;
 }
@@ -1286,3 +1373,4 @@ button, input {
 .vc-rdb-input .textArea__74543 > div > div{
   padding-left: 0px;
 }
+/*  */
