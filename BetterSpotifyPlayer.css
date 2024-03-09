@@ -1,0 +1,89 @@
+/* BetterSpotifyPlayer */
+#vc-spotify-player {
+  height: 50px; 
+  background: transparent !important;
+  position: relative;
+  transition: height 0.4s ease-out;
+  padding: 7px!important;
+  padding-top: 8px !important;
+}
+#vc-spotify-player:hover {
+  height: 115px;
+}
+#vc-spotify-player::before,
+#vc-spotify-player::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.4s ease-out;
+}
+#vc-spotify-player::before {
+  background: var(--vc-spotify-track-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+}
+#vc-spotify-player::after {
+  backdrop-filter: brightness(100%);
+}
+#vc-spotify-player:hover::before {
+  background: var(--vc-spotify-track-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+#vc-spotify-player:hover::after {
+  backdrop-filter: brightness(50%);
+}
+#vc-spotify-progress-bar {
+  margin: 10px 0 7px;
+}
+#vc-spotify-info-wrapper img {
+  height: 100%;
+}
+#vc-spotify-player #vc-spotify-titles .size14_b2af01 {
+  font-size: 13px;
+}
+#vc-spotify-song-title::before, #vc-spotify-song-title + div::before, #vc-spotify-song-title + div + div::before {
+  background-color: var(--accent-5);
+}
+#vc-spotify-player .colorStandard__5111e {
+  color: var(--accent-5);
+}
+.vc-spotify-artist, .vc-spotify-album {
+  color: var(--accent-5)
+}
+#vc-spotify-player .bar_e58961 {
+  background-color: color-mix(in srgb, var(--white-500), transparent 75%);
+}
+#vc-spotify-player .barFill__30e17 {
+  background-color: var(--accent-5);
+}
+#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
+  background-color: var(--accent-5);
+  width: 12px !important;
+  height: 12px !important;
+  margin-top: 3px;
+  opacity: 1 !important;
+}
+.vc-spotify-progress-time {
+  top: 12px;
+}
+.vc-spotify-button {
+  color: var(--interactive-active);
+}
+.vc-spotify-button:hover {
+  background-color: color-mix(in srgb, var(--interactive-active), transparent 75%);
+}
+.vc-spotify-button.vc-spotify-shuffle-on {
+  color: var(--accent-3);
+}
+.vc-spotify-button.vc-spotify-shuffle-on:hover {
+  background-color: color-mix(in srgb, var(--accent-3), transparent 75%);;
+} 
