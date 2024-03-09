@@ -42,7 +42,7 @@
   backdrop-filter: brightness(50%);
 }
 #vc-spotify-progress-bar {
-  margin: 10px 0 7px;
+  margin: 11px 0 7px;
 }
 #vc-spotify-info-wrapper img {
   height: 100%;
@@ -51,22 +51,23 @@
   font-size: 13px;
 }
 #vc-spotify-song-title::before, #vc-spotify-song-title + div::before, #vc-spotify-song-title + div + div::before {
-  background-color: var(--accent-5);
+  background-color: var(--interactive-active);
 }
 #vc-spotify-player .colorStandard__5111e {
-  color: var(--accent-5);
+  color: var(--interactive-active);
 }
 .vc-spotify-artist, .vc-spotify-album {
-  color: var(--accent-5)
+  color: var(--interactive-normal)
 }
 #vc-spotify-player .bar_e58961 {
   background-color: color-mix(in srgb, var(--white-500), transparent 75%);
 }
 #vc-spotify-player .barFill__30e17 {
-  background-color: var(--accent-5);
+  background-color: var(--interactive-active);
 }
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
-  background-color: var(--accent-5);
+  background-color: var(--interactive-active);
+  border-color: var(--interactive-active);
   width: 12px !important;
   height: 12px !important;
   margin-top: 3px;
@@ -82,8 +83,8 @@
   background-color: color-mix(in srgb, var(--interactive-active), transparent 75%);
 }
 .vc-spotify-button.vc-spotify-shuffle-on {
-  color: var(--accent-3);
+  color: var(--green-360);
 }
 .vc-spotify-button.vc-spotify-shuffle-on:hover {
-  background-color: color-mix(in srgb, var(--accent-3), transparent 75%);;
+  background-color: color-mix(in srgb, var(--green-360), transparent 75%);;
 } 
