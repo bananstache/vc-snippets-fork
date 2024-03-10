@@ -47,12 +47,12 @@
 #vc-spotify-player:hover {
   height: 115px;
 }
-#vc-spotify-progress-bar, #vc-spotify-button-row {
+#vc-spotify-progress-bar, .vc-spotify-button-row {
   opacity: 0;
   transition: opacity 0.4s ease-out;
 }
 #vc-spotify-player:hover #vc-spotify-progress-bar,
-#vc-spotify-player:hover vc-spotify-button-row {
+#vc-spotify-player:hover .vc-spotify-button-row {
   opacity: 1;
 }
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) #vc-spotify-progress-bar,
