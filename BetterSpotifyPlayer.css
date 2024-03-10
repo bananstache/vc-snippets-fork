@@ -34,7 +34,7 @@
 
 /* */
 #vc-spotify-player {
-  height: 50px; 
+  height:50px; 
   background: transparent !important;
   position: relative;
   transition: height 0.4s ease-out;
@@ -56,7 +56,7 @@
   opacity: 1;
 }
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) #vc-spotify-progress-bar,
-#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) #vc-spotify-progress-bar {
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
   opacity: 1;
 }
 #vc-spotify-player::before,
