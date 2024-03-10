@@ -47,6 +47,18 @@
 #vc-spotify-player:hover {
   height: 115px;
 }
+#vc-spotify-progress-bar, #vc-spotify-button-row {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+#vc-spotify-player:hover #vc-spotify-progress-bar,
+#vc-spotify-player:hover vc-spotify-button-row {
+  opacity: 1;
+}
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) #vc-spotify-progress-bar,
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) #vc-spotify-progress-bar {
+  opacity: 1;
+}
 #vc-spotify-player::before,
 #vc-spotify-player::after {
   z-index: -1;
@@ -78,6 +90,15 @@
 #vc-spotify-player:hover::after {
   backdrop-filter: brightness(50%);
 }
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::before {
+  background: var(--vc-spotify-track-image) !important;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+}
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::after {
+  backdrop-filter: brightness(50%);
+}
 #vc-spotify-progress-bar {
   margin: 11px 0 7px;
 }
@@ -86,8 +107,11 @@
   opacity: 1;
   transition: opacity 0.4s ease-out;
 }
-#vc-spotify-player:hover #vc-spotify-album-image {
+#vc-spotify-player:not(:has(#vc-spotify-album-expanded-wrapper)):hover #vc-spotify-album-image {
   opacity: 0;
+}
+#vc-spotify-album-image:hover {
+  filter: none;
 }
 #vc-spotify-info-wrapper #vc-spotify-titles {
   margin-left: 15px;
