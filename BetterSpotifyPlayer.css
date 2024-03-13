@@ -37,7 +37,7 @@
   height:50px; 
   background: transparent !important;
   position: relative;
-  transition: height 0.4s ease-out;
+  transition: height 0.0s ease-out;
   padding: 7px!important;
   padding-top: 8px !important;
   overflow: hidden;
@@ -50,7 +50,7 @@
 }
 #vc-spotify-progress-bar, .vc-spotify-button-row {
   opacity: 0;
-  transition: opacity 0.4s ease-out;
+  transition: opacity 0.0s ease-out;
 }
 #vc-spotify-player:hover #vc-spotify-progress-bar,
 #vc-spotify-player:hover .vc-spotify-button-row {
